@@ -1,0 +1,143 @@
+/* styles for View Roadmap Controller.js */
+
+.vrc_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.vrc_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    padding-top: 5px;
+}
+
+.vrc_left_uppertext {
+    width: 100%;
+    font-size: 28px;
+    color: #45464F;
+}
+
+.vrc_left_lowertext {
+    width: 100%;
+    font-size: 14px;
+    color: #45464F;
+}
+
+.info_icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.vrc_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.vrc_center_leftchevron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.vrc_center_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.vrc_center_uppertext {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    text-align:center;
+}
+
+.vrc_center_lowertext {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.vrc_center_rightchevron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.vrc_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+.vrc_right_download {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+.vrc_right_import {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+/* For popup container */
+.menu_container {
+    min-width: 250px;
+    min-height: 150px;
+    width: auto;
+    height: auto;
+    padding: 8px 0px;
+}
+
+.menu_close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 4px 4px 0 4px;
+    cursor: pointer;
+}
+
+.menu_content {
+    padding: 8px 15px;
+    text-align: justify;
+}

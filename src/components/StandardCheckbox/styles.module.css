@@ -1,0 +1,45 @@
+/* Styles for Standard Checkbox */
+
+.scb_check {
+    display: block;
+    min-height: 1.6rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.scb_check_input {
+    position: relative;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.55);
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.scb_check_input[type=checkbox] {
+    border-radius: 0.15rem;
+    margin-top: 0.19em;
+    margin-right: 6px;
+}
+
+.scb_check_input[type=checkbox]:checked {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3 6-6'/%3E%3C/svg%3E");
+    background-color: #0050E2;
+}
+
+.scb_check .scb_check_input {
+    float: left;
+    margin-left: -1.5em;
+}
+
+.scb_check_label {
+    padding-left: 0.15rem;
+    font-size: 14px;
+    color: #45464F;
+}

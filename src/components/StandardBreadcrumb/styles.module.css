@@ -1,0 +1,38 @@
+/* Styles for Standard Breadcrumb.js */
+
+.bc_container {
+    --breadcrumb-padding-x: 0;
+    --breadcrumb-padding-y: 0;
+    --breadcrumb-margin-bottom: 1rem;
+    --breadcrumb-divider-color: #757575;
+    --breadcrumb-item-padding-x: 0.5rem;
+    --breadcrumb-item-active-color: #757575;
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--breadcrumb-padding-y) var(--breadcrumb-padding-x);
+    margin-bottom: var(--breadcrumb-margin-bottom);
+    font-size: var(--breadcrumb-font-size);
+    list-style: none;
+    background-color: var(--breadcrumb-bg);
+    border-radius: var(--breadcrumb-border-radius);
+}
+
+li.bc_item a {
+    text-decoration: none !important;
+}
+
+.bc_item+.bc_item {
+    padding-left: var(--breadcrumb-item-padding-x);
+}
+
+.bc_item+.bc_item:before {
+    float: left;
+    padding-right: var(--breadcrumb-item-padding-x);
+    color: var(--breadcrumb-divider-color);
+    content: var(--breadcrumb-divider, ">");
+}
+
+.bc_item.active a {
+    color: var(--breadcrumb-item-active-color);
+    cursor: default;
+}

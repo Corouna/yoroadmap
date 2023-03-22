@@ -1,0 +1,29 @@
+/* Styles for mock roadmap */
+
+.map_container {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* For menu container */
+
+.menu_container {
+    min-width: 100px;
+    width: auto;
+    height: auto;
+    padding: 0 5px;
+  }
+  
+  .menu_text {
+    font-size: 14px;
+    color: #001F2A;
+    cursor: pointer;
+  }
+  
+  .menu_text:hover {
+    color: #0050E2;
+    font-weight: 500;
+  }
+  
+  
