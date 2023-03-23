@@ -6,6 +6,7 @@ import { Login, Register, ForgotPassword, List, View } from "./pages";
 
 function App() {
   const { token } = useContext(UserContext);
+
   return (
     <BrowserRouter>
       <Routes>

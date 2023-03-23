@@ -10,13 +10,13 @@ const useLogin = () => {
   const navigate = useNavigate();
 
   const loginHandler = async (email, password) => {
+    // setTimeout(() => navigate("/"), 200);
+
     setLoading(true);
     try {
-      const response = await login({ username: email, password: password });
-      console.log("data from api for login", response.data);
-      setToken(response.data.token);
-      localStorage.setItem("token", response.data.token);
-      console.log(token);
+      // const response = await login({ username: email, password: password });
+      setToken(true);
+      localStorage.setItem("token", true);
       navigate("/");
     } catch (err) {
       setError(err);
